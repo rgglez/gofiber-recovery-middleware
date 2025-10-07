@@ -56,6 +56,7 @@ An example is included in the [example](example/) directory. To execute it:
 ## Dependencies
 
 * [github.com/gofiber/fiber/v2](https://github.com/gofiber/fiber/v2)
+* [https://github.com/rs/zerolog](https://github.com/rs/zerolog)
 
 ## License
 
