@@ -31,7 +31,6 @@ app.Use(gofiberrecovery.New(gofiberrecovery.Config{/* your configuration here */
 
 There are some configuration options available in the ```Config``` struct:
 
-	// Next
 * ``Next`` defines a function to skip this middleware when it returns true.
 * ``Logger`` it is the zerolog instance to record panics.
 * ``TimeKeyFunc`` function to generate the time_key in the logs.
