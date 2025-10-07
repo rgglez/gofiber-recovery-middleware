@@ -1,4 +1,4 @@
-# gofiber-ip-middleware
+# gofiber-recovery-middleware
 
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 ![GitHub all releases](https://img.shields.io/github/downloads/rgglez/gofiber-recovery-middleware/total)
@@ -41,7 +41,17 @@ There are some configuration options available in the ```Config``` struct:
 
 ## Example
 
-An example is included in the [example](example/) directory.
+An example is included in the [example](example/) directory. To execute it:
+
+1. Enter the example directory.
+1. Run the example:
+   ```bash
+   go run .
+   ```
+1. In your browser open
+
+   [http://127.0.0.1:3000/test-panic](http://127.0.0.1:3000/test-panic)
+
 
 ## Dependencies
 
@@ -49,6 +59,6 @@ An example is included in the [example](example/) directory.
 
 ## License
 
-Copyright (c) 2025 Rodolfo González González
+Copyright (c) 2025 Rodolfo González González.
 
 Licensed under the [Apache 2.0](LICENSE) license. Read the [LICENSE](LICENSE) file.

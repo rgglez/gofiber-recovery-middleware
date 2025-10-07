@@ -1,9 +1,10 @@
-module github.com/rgglez/gofiber-recovery-middleware
+module main
 
 go 1.25.1
 
 require (
 	github.com/gofiber/fiber/v2 v2.52.9
+	github.com/rgglez/gofiber-recovery-middleware v0.0.0-20251007080608-63a8655f13f0
 	github.com/rs/zerolog v1.34.0
 )
 
@@ -20,3 +21,5 @@ require (
 	github.com/valyala/tcplisten v1.0.0 // indirect
 	golang.org/x/sys v0.28.0 // indirect
 )
+
+replace github.com/rgglez/gofiber-recovery-middleware => ../
